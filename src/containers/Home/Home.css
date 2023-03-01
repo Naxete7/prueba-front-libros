@@ -1,0 +1,10 @@
+.homeDesign{
+    background-image:  url(../../assets/img/fondo.jpg);
+    color: aqua;
+    
+    height: 92vh;
+}
+
+.textDesign{
+    margin-top: 1em;
+}

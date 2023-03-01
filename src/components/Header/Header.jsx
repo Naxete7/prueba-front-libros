@@ -5,10 +5,12 @@ import "./Header.css";
 const header = () => {
     
     return (
-        <div className="headerStyle">
+      <div className="headerStyle">
             <a href="/">HOME</a>
-        </div>
-    )
+            
+        <a href="/books">BOOKS</a>
+      </div>
+    );
 }
 
 export default header;

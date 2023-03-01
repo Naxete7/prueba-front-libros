@@ -1,5 +1,24 @@
-bookStyle{
+.bookStyle{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+   
+    justify-content: center;
+  
+}
+
+.homeStyle {
+    background-image: linear-gradient(75deg, #f6d365 0%, #fda085 100%);
+    color: rgb(8, 14, 79);
+
+    height: auto;
+}
+
+.imgStyle{
+    width: 25em;
+    height: 30em;
+}
+
+.imgStyle2 {
+    width: 15em;
+    height: 20em;
 }
