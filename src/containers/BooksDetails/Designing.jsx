@@ -9,12 +9,12 @@ import cover8 from "../../assets/img/cover8.jpg";
 
 const designing = () => {
     return (
-      <Container className="d-flex flex-wrap flex-direction-row ">
-        <Row className="d-flex flex-wrap flex-direction-row bookStyle">
-          <Col className="d-flex flex-wrap flex-direction-row bookStyle m-4">
+      <Container className=" homeStyle2 ">
+        <Row className=" bookStyle">
+          <Col className=" bookStyle ">
             <img src={cover8} alt="designing" className="imgStyle" />
           </Col>
-          <Col className="">
+          <Col>
             <h6> isbn: 9781449337711</h6>
             <h6> title: Designing Evolvable Web APIs with ASP.NET</h6>
             <h6>subtitle: Harnessing the Power of the Web</h6>

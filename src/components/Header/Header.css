@@ -5,3 +5,10 @@
         font-family: Franklin Gothic Medium;
         margin-bottom: -2em;
 }
+
+.bookStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
