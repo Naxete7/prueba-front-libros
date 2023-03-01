@@ -12,7 +12,9 @@ const Home = () => {
     return (
         <div className="homeDesign">
             Soy el Home
+            <a href="/books" >Nuestros Libros</a>
         </div>
+        
     )
 
 }
