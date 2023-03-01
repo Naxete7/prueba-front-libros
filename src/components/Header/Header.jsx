@@ -8,11 +8,14 @@ const header = () => {
     return (
       <Container className="headerStyle">
         <Row className="d-flex flex-direction ">
-          <Col >
+          <Col>
             <a href="/">HOME</a>
           </Col>
-          <Col >
+          <Col>
             <a href="/books">BOOKS</a>
+          </Col>
+          <Col>
+            <a href="/createBooks">CREA TU LIBRO</a>
           </Col>
         </Row>
       </Container>

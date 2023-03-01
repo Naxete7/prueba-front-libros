@@ -1,6 +1,6 @@
 import React from "react";
 
-import {  CardImg, Col, Container, Row } from "react-bootstrap";
+import { CardImg, Col, Container, Row } from "react-bootstrap";
 import cover1 from "../../assets/img/cover1.jpg";
 import cover2 from "../../assets/img/cover2.jpg";
 import cover3 from "../../assets/img/cover3.jpg";
@@ -20,33 +20,27 @@ const Books = () => {
           <Card>
             <CardImg variant="top" src={cover1} className="imgStyle2" />
             <Card.Body>
-              
-                <a className="homeStyle" href="/eloquent">
-                  Programming JavaScript Applications
-                </a>
-              
+              <a className="homeStyle" href="/eloquent">
+                Programming JavaScript Applications
+              </a>
             </Card.Body>
           </Card>
-         
+
           <Card>
             <Card.Img variant="top" src={cover2} className="imgStyle2" />
             <Card.Body>
-              
-                <a className="homeStyle" href="/learning">
-                  Learning JavaScript Design Patterns
-                </a>
-             
+              <a className="homeStyle" href="/learning">
+                Learning JavaScript Design Patterns
+              </a>
             </Card.Body>
           </Card>
 
           <Card>
             <Card.Img variant="top" src={cover3} className="imgStyle2" />
             <Card.Body>
-             
-                <a className="homeStyle" href="/speaking">
-                  Speaking JavaScript
-                </a>
-              
+              <a className="homeStyle" href="/speaking">
+                Speaking JavaScript
+              </a>
             </Card.Body>
           </Card>
         </Col>
@@ -57,33 +51,27 @@ const Books = () => {
           <Card>
             <Card.Img variant="top" src={cover4} className="imgStyle2" />
             <Card.Body>
-            
-                <a className="homeStyle" href="/programing">
-                  Programming JavaScript Applications
-                </a>
-            
+              <a className="homeStyle" href="/programing">
+                Programming JavaScript Applications
+              </a>
             </Card.Body>
           </Card>
 
           <Card>
             <Card.Img variant="top" src={cover5} className="imgStyle2" />
             <Card.Body>
-              
-                <a className="homeStyle" href="/understanding">
-                  Understanding ECMAScript 6
-                </a>
-              
+              <a className="homeStyle" href="/understanding">
+                Understanding ECMAScript 6
+              </a>
             </Card.Body>
           </Card>
 
           <Card>
             <Card.Img variant="top" src={cover6} className="imgStyle2" />
             <Card.Body>
-             
-                <a className="homeStyle" href="/you">
-                  You Don't Know JS
-                </a>
-              
+              <a className="homeStyle" href="/you">
+                You Don't Know JS
+              </a>
             </Card.Body>
           </Card>
         </Col>
@@ -94,28 +82,23 @@ const Books = () => {
           <Card>
             <Card.Img variant="top" src={cover7} className="imgStyle2" />
             <Card.Body>
-          
-                <a className="homeStyle" href="/git">
-                  Git Pocket Guide
-                </a>
-             
+              <a className="homeStyle" href="/git">
+                Git Pocket Guide
+              </a>
             </Card.Body>
           </Card>
           <Card>
             <Card.Img variant="top" src={cover8} className="imgStyle2" />
             <Card.Body>
-             
-                <a className="homeStyle" href="/designing">
-                  Designing Evolvable Web APIs with ASP.NET
-                </a>
-             
+              <a className="homeStyle" href="/designing">
+                Designing Evolvable Web APIs with ASP.NET
+              </a>
             </Card.Body>
           </Card>
         </Col>
       </Row>
     </Container>
   );
- 
 };
 
 export default Books;

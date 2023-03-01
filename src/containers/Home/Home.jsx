@@ -1,12 +1,6 @@
 import React from "react";
 import './Home.css'
 
-
-
-
-
-
-
 const Home = () => {
     
     return (
@@ -16,10 +10,10 @@ const Home = () => {
         <a className="homeDesign" href="/books">
           Nuestros Libros
         </a>
+       
       </div>
     );
 
 }
-
 
 export default Home;
