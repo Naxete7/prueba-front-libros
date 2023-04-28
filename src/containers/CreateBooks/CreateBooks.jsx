@@ -6,7 +6,7 @@ import "./CreateBooks.css"
 
 const CreateBooks = () => {
     return (
-      <Container className="  homeStyle2">
+      <Container className="  homeStyle">
         <Row className=" d-flex justify-content-center mb-5 mt-2">
           <Col className=" d-flex justify-content-center ">
             <br></br>
