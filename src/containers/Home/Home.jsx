@@ -8,7 +8,7 @@ const Home = () => {
         <h1>BOOKS CONSULTATION</h1>
         <h3>Consulta los mejores libros de programación</h3>
         <a className="homeDesign" href="/books">
-          Nuestros Libros Leelos!
+          Nuestros Libros
         </a>
        
       </div>
